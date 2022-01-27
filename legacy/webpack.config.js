@@ -5,8 +5,8 @@ const path = require('path');
 module.exports = {
   mode: process.env.NODE_ENV || 'production',
   entry: {
-    "bundle/mainJS": ['../Scripts/a.js', '../Scripts/b.js', '../Css/a.css'],
-    "bundle/mainCSS": ['../Css/a.css', '../Css/b.css']
+    "bundle/mainJS": ['../Scripts/a.js', '../Scripts/b.js'],
+    "bundle/mainStyles": ['../Css/a.css', '../Css/b.css']
   },
   output: {
     filename: '[name].js',
