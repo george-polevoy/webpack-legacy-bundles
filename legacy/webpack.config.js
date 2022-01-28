@@ -1,6 +1,7 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const path = require('path');
+const RemoveEmptyScriptsPlugin  = require('webpack-remove-empty-scripts');
 
 module.exports = {
   mode: process.env.NODE_ENV || 'production',
@@ -24,6 +25,7 @@ module.exports = {
     ],
   },
   plugins: [
+    new RemoveEmptyScriptsPlugin(),
     new MiniCssExtractPlugin({
       filename: '[name].css',
     }),
