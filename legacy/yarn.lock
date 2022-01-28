@@ -1142,6 +1142,11 @@ webpack-merge@^5.7.3:
     clone-deep "^4.0.1"
     wildcard "^2.0.0"
 
+webpack-remove-empty-scripts@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/webpack-remove-empty-scripts/-/webpack-remove-empty-scripts-0.7.2.tgz#54526ec529d34b45b727477c21fc98486041611d"
+  integrity sha512-yhQw/ktHnpqGZHoN9/I079uVNxKx/aznsx980AvaTOJANxS0BV8SWGDccCGPH5L3Nl+HTbkoexr3VREmFbFWYQ==
+
 webpack-sources@^3.2.3:
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-3.2.3.tgz#2d4daab8451fd4b240cc27055ff6a0c2ccea0cde"
